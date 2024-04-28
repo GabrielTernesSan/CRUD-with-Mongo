@@ -1,0 +1,11 @@
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\bin\Debug\net8.0\Estoque.Infra.deps.json
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\bin\Debug\net8.0\Estoque.Infra.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\bin\Debug\net8.0\Estoque.Infra.pdb
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\refint\Estoque.Infra.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.pdb
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\ref\Estoque.Infra.dll

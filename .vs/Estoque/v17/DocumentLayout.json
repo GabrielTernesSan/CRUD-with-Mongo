@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\Documents\\Estoque\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}|Estoque.Web\\Estoque.Web.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.web\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}|Estoque.Web\\Estoque.Web.csproj|solutionrelative:estoque.web\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}|Estoque.Infra\\Estoque.Infra.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.infra\\queries\\produtoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}|Estoque.Infra\\Estoque.Infra.csproj|solutionrelative:estoque.infra\\queries\\produtoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}|Estoque.Infra\\Estoque.Infra.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.infra\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}|Estoque.Infra\\Estoque.Infra.csproj|solutionrelative:estoque.infra\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.domain\\queries\\iprodutoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|solutionrelative:estoque.domain\\queries\\iprodutoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.domain\\queries\\requests\\obterprodutosrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|solutionrelative:estoque.domain\\queries\\requests\\obterprodutosrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProdutoQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Domain\\Queries\\IProdutoQuery.cs",
+              "RelativeDocumentMoniker": "Estoque.Domain\\Queries\\IProdutoQuery.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Domain\\Queries\\IProdutoQuery.cs",
+              "RelativeToolTip": "Estoque.Domain\\Queries\\IProdutoQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:59:22.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Web\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Estoque.Web\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Web\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "Estoque.Web\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:51:37.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Infra\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Estoque.Infra\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Infra\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "Estoque.Infra\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:48:58.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Infra\\Queries\\ProdutoQuery.cs",
+              "RelativeDocumentMoniker": "Estoque.Infra\\Queries\\ProdutoQuery.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Infra\\Queries\\ProdutoQuery.cs",
+              "RelativeToolTip": "Estoque.Infra\\Queries\\ProdutoQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:48:11.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObterProdutosRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Domain\\Queries\\Requests\\ObterProdutosRequest.cs",
+              "RelativeDocumentMoniker": "Estoque.Domain\\Queries\\Requests\\ObterProdutosRequest.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Domain\\Queries\\Requests\\ObterProdutosRequest.cs",
+              "RelativeToolTip": "Estoque.Domain\\Queries\\Requests\\ObterProdutosRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T11:29:51.792Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

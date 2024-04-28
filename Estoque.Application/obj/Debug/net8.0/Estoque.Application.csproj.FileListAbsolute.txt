@@ -1,0 +1,11 @@
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\bin\Debug\net8.0\Estoque.Application.deps.json
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\bin\Debug\net8.0\Estoque.Application.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\bin\Debug\net8.0\Estoque.Application.pdb
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\Estoque.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\Estoque.Application.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\Estoque.Application.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\Estoque.Application.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\Estoque.Application.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\refint\Estoque.Application.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\Estoque.Application.pdb
+C:\Users\Gabriel\Documents\Estoque\Estoque.Application\obj\Debug\net8.0\ref\Estoque.Application.dll

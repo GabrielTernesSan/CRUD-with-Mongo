@@ -1,0 +1,11 @@
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\bin\Debug\net8.0\Estoque.Domain.deps.json
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\bin\Debug\net8.0\Estoque.Domain.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\bin\Debug\net8.0\Estoque.Domain.pdb
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\Estoque.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\Estoque.Domain.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\Estoque.Domain.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\Estoque.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\Estoque.Domain.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\refint\Estoque.Domain.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\Estoque.Domain.pdb
+C:\Users\Gabriel\Documents\Estoque\Estoque.Domain\obj\Debug\net8.0\ref\Estoque.Domain.dll
