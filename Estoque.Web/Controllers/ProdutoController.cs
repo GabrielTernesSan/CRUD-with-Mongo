@@ -1,6 +1,5 @@
 ﻿using Estoque.Application.Requests;
 using Estoque.Domain.Queries;
-using Estoque.Domain.Repositories;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,13 +11,11 @@ namespace Estoque.Web.Controllers
     public class ProdutoController : ControllerBase
     {
         private readonly IProdutoQuery _produtoQuery;
-        private readonly IProdutoRepository _produtoRepository;
         private readonly IMediator _mediator;
 
-        public ProdutoController(IProdutoQuery produtoQuery, IProdutoRepository produtoRepository, IMediator mediator)
+        public ProdutoController(IProdutoQuery produtoQuery, IMediator mediator)
         {
             _produtoQuery = produtoQuery;
-            _produtoRepository = produtoRepository;
             _mediator = mediator;
         }
 

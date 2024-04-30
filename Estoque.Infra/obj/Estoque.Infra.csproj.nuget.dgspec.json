@@ -128,6 +128,10 @@
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
             }
           },
           "imports": [
