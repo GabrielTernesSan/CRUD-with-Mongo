@@ -9,3 +9,5 @@ C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.
 C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\refint\Estoque.Infra.dll
 C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.pdb
 C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\ref\Estoque.Infra.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\Estoque\Estoque.Infra\obj\Debug\net8.0\Estoque.Infra.sourcelink.json

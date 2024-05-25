@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6IdYog78V/OJ+jLr7hp+HIX2EQNjjuAyKAmOdiUas1oFeTA5e+5zOJAKTpi3BQ/BQlBuzgGhbcADKX+eeHt0DQ==",
+  "dgSpecHash": "mgCWkfXlPel+9GwG6NqkHEnUzdLW4zmecABGthxvJjCDleRzWuEOJLvcPp1MBZajHzBHlWSaz4oCioNCbfLHuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Web\\Estoque.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
@@ -16,6 +17,7 @@
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",

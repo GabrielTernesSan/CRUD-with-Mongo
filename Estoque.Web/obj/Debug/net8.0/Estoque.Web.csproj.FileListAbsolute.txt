@@ -31,3 +31,4 @@ C:\Users\Gabriel\Documents\Estoque\Estoque.Web\obj\Debug\net8.0\refint\Estoque.W
 C:\Users\Gabriel\Documents\Estoque\Estoque.Web\obj\Debug\net8.0\Estoque.Web.pdb
 C:\Users\Gabriel\Documents\Estoque\Estoque.Web\obj\Debug\net8.0\Estoque.Web.genruntimeconfig.cache
 C:\Users\Gabriel\Documents\Estoque\Estoque.Web\obj\Debug\net8.0\ref\Estoque.Web.dll
+C:\Users\Gabriel\Documents\Estoque\Estoque.Web\obj\Debug\net8.0\Estoque.Web.sourcelink.json

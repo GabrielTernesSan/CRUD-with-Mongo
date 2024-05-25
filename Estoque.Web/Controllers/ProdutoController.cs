@@ -1,5 +1,7 @@
 ﻿using Estoque.Application.Requests;
+using Estoque.Domain.Estoque;
 using Estoque.Domain.Queries;
+using Estoque.Domain.ViewModels;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,27 +12,27 @@ namespace Estoque.Web.Controllers
     [Route("api/v{version:apiVersion}/produtos")]
     public class ProdutoController : ControllerBase
     {
-        private readonly IProdutoQuery _produtoQuery;
+        private readonly IMongoQuery<Produto> _mongoQuery;
         private readonly IMediator _mediator;
 
-        public ProdutoController(IProdutoQuery produtoQuery, IMediator mediator)
+        public ProdutoController(IMongoQuery<Produto> mongoQuery, IMediator mediator)
         {
-            _produtoQuery = produtoQuery;
+            _mongoQuery = mongoQuery;
             _mediator = mediator;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetProdutosAsync()
+        public  IActionResult GetProdutosAsync()
         {
-            var response = await _produtoQuery.ObterProdutosAsync();
+            var response = _mongoQuery.Get();
 
             return Ok(response);
         }
 
-        [HttpGet("{id:int}")]
-        public async Task<IActionResult> GetProdutosByIdAsync(int id)
+        [HttpGet("{id:length(24)}", Name = "GetProducts")]
+        public ActionResult<ProdutoViewModel> GetProdutosByIdAsync(string id)
         {
-            var response = await _produtoQuery.ObterProdutosByIdAsync(id);
+            var response = _mongoQuery.Get(id);
 
             return Ok(response);
         }
@@ -41,6 +43,36 @@ namespace Estoque.Web.Controllers
             var response = await _mediator.Send(request);
 
             return Ok(response);
+        }
+
+        [HttpPut("{id:length(24)}")]
+        public async Task<ActionResult<ProdutoViewModel>> Update(string id, SalvarProdutoRequest request)
+        {
+            var produto = _mongoQuery.Get(id);
+
+            if (produto is null)
+                return NotFound();
+
+            request.Id = id;
+
+            await _mediator.Send(request);
+
+            return Ok();
+        }
+
+        [HttpDelete("{id:length(24)}")]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var produto = _mongoQuery.Get(id);
+
+            if (produto is null)
+                return NotFound("Produto não encontrado!");
+
+            var request = new ExcluirProdutoRequest() { Id = id };
+
+            await _mediator.Send(request);
+
+            return Ok("Noticia deletada com sucesso!");
         }
     }
 }

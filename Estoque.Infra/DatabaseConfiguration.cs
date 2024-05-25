@@ -1,20 +1,14 @@
-﻿using Microsoft.Extensions.Configuration;
-
-namespace Estoque.Infra
+﻿namespace Estoque.Infra
 {
-    public class DatabaseConfiguration
+    public class DatabaseConfiguration : IDatabaseSettings
     {
         public string ConnectionString { get; set; } = null!;
-        public IConfiguration Configuration { get; set; } = null!;
+        public string DatabaseName { get; set; } = null!;
+    }
 
-        public DatabaseConfiguration(IConfiguration configuration)
-        {
-            var connectionString = configuration.GetConnectionString("MongoDb");
-
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                throw new ArgumentException($"String de conexão inválida!");
-            }
-        }
+    public interface IDatabaseSettings
+    {
+        string ConnectionString { get; set; }
+        string DatabaseName { get; set; }
     }
 }
