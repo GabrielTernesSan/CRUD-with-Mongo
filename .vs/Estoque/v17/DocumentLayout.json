@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gabriel\\Documents\\Estoque\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.domain\\viewmodels\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|solutionrelative:estoque.domain\\viewmodels\\produtoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}|Estoque.Web\\Estoque.Web.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.web\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}|Estoque.Web\\Estoque.Web.csproj|solutionrelative:estoque.web\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|solutionrelative:estoque.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}|Estoque.Web\\Estoque.Web.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}|Estoque.Web\\Estoque.Web.csproj|solutionrelative:estoque.web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}|Estoque.Infra\\Estoque.Infra.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.infra\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}|Estoque.Infra\\Estoque.Infra.csproj|solutionrelative:estoque.infra\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|c:\\users\\gabriel\\documents\\estoque\\estoque.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}|Estoque.Domain\\Estoque.Domain.csproj|solutionrelative:estoque.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ProdutoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Domain\\ViewModels\\ProdutoViewModel.cs",
+              "RelativeDocumentMoniker": "Estoque.Domain\\ViewModels\\ProdutoViewModel.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Domain\\ViewModels\\ProdutoViewModel.cs",
+              "RelativeToolTip": "Estoque.Domain\\ViewModels\\ProdutoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:23:52.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Web\\Startup.cs",
+              "RelativeDocumentMoniker": "Estoque.Web\\Startup.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Web\\Startup.cs",
+              "RelativeToolTip": "Estoque.Web\\Startup.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAwwDEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:24:20.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Domain\\Produto.cs",
               "RelativeDocumentMoniker": "Estoque.Domain\\Produto.cs",
@@ -34,31 +64,17 @@
               "RelativeToolTip": "Estoque.Domain\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T22:27:52.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T22:27:52.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Infra\\MongoRepository.cs",
-              "RelativeDocumentMoniker": "Estoque.Infra\\MongoRepository.cs",
-              "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Infra\\MongoRepository.cs",
-              "RelativeToolTip": "Estoque.Infra\\MongoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T22:06:33.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Web\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Estoque.Web\\Controllers\\ProdutoController.cs",
               "ToolTip": "C:\\Users\\Gabriel\\Documents\\Estoque\\Estoque.Web\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "Estoque.Web\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCYAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T11:51:37.665Z",
               "EditorCaption": ""

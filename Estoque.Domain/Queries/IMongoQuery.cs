@@ -2,7 +2,7 @@
 {
     public interface IMongoQuery<T>
     {
-        List<T> Get();
-        T Get(string id);
+        Task<List<T>> GetAsync();
+        Task<T> GetByIdAsync(string id);
     }
 }

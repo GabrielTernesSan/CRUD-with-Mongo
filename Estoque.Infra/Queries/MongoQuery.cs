@@ -15,8 +15,9 @@ namespace Estoque.Infra.Queries
 
             _model = database.GetCollection<T>(typeof(T).Name.ToLower());
         }
-        public List<T> Get() => _model.Find(active => true).ToList();
 
-        public T Get(string id) => _model.Find(x => x.Id == id).FirstOrDefault();
+        public async Task<List<T>> GetAsync() => await _model.Find(active => true).ToListAsync();
+
+        public async Task<T> GetByIdAsync(string id) => await _model.Find(x => x.Id == id).FirstOrDefaultAsync();
     }
 }

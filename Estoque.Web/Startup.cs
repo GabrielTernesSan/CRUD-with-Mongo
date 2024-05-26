@@ -1,5 +1,10 @@
-﻿using Estoque.Infra;
+﻿using Estoque.Domain.Queries;
+using Estoque.Domain.Repositories;
+using Estoque.Infra;
+using Estoque.Infra.Mapping;
+using Estoque.Infra.Queries;
 using Estoque.Infra.Repositories;
+using Estoque.Infra.Services;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
@@ -28,19 +33,21 @@ namespace Estoque.Web
             });
 
             #region [Database]
-            services.Configure<DatabaseConfiguration>(Configuration.GetSection(nameof(DatabaseConfiguration)));
+            services.Configure<DatabaseSettings>(Configuration.GetSection(nameof(DatabaseSettings)));
 
-            services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOptions<DatabaseConfiguration>>().Value);
+            services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
             #endregion
 
             #region [DI]
             services.AddSingleton(typeof(IMongoRepository<>), typeof(MongoRepository<>));
-            services.AddSingleton<NewsService>();
+            services.AddSingleton(typeof(IMongoQuery<>), typeof(MongoQuery<>));
             #endregion
 
             #region Automapper
             services.AddAutoMapper(typeof(EntityToViewModelMapping), typeof(ViewModelToEntityMapping));
             #endregion
+
+            services.AddSingleton<ProdutoService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

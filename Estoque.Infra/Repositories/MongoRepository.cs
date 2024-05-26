@@ -16,14 +16,14 @@ namespace Estoque.Infra.Repositories
             _model = database.GetCollection<T>(typeof(T).Name.ToLower());
         }
 
-        public T Create(T produto)
+        public async Task<T> Create(T produto)
         {
-            _model.InsertOne(produto);
+            await _model.InsertOneAsync(produto);
             return produto;
         }
 
-        public void Remove(string id) => _model.DeleteOne(x => x.Id == id);
+        public async Task Remove(string id) => await _model.DeleteOneAsync(x => x.Id == id);
 
-        public void Update(string id, T produto) => _model.ReplaceOne(x => x.Id == id, produto);
+        public async Task Update(string id, T produto) => await _model.ReplaceOneAsync(x => x.Id == id, produto);
     }
 }

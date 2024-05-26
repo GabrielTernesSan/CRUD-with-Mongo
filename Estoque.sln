@@ -3,27 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque.Application", "Estoque.Application\Estoque.Application.csproj", "{26A43C61-1ACA-4C0F-B20F-D313E61B0B28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estoque.Domain", "Estoque.Domain\Estoque.Domain.csproj", "{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque.Domain", "Estoque.Domain\Estoque.Domain.csproj", "{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estoque.Infra", "Estoque.Infra\Estoque.Infra.csproj", "{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque.Infra", "Estoque.Infra\Estoque.Infra.csproj", "{3CF05128-024A-4C1A-A0A7-8D04C3EFE556}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque.Web", "Estoque.Web\Estoque.Web.csproj", "{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estoque.Web", "Estoque.Web\Estoque.Web.csproj", "{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26A43C61-1ACA-4C0F-B20F-D313E61B0B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26A43C61-1ACA-4C0F-B20F-D313E61B0B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26A43C61-1ACA-4C0F-B20F-D313E61B0B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26A43C61-1ACA-4C0F-B20F-D313E61B0B28}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B15AD10D-D8A9-459C-BCAA-0044F0558EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +27,11 @@ Global
 		{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208D1E40-CB91-4356-8AE3-AC19A4D25FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2AA21CA-7455-49AD-BA27-9C4BAD84008C}
 	EndGlobalSection
 EndGlobal
